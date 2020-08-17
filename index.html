@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- -------------- google font -------------------------- -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <!-- ------------------ bulma css -------------------------------- -->
+    <link rel="stylesheet" href="css/bulma.min.css">
+    <!-- ------------------------- font awesome ----------------------------- -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- ----------------- main css file ------------------------------ -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="interface">
+        <div class="interface--top">
+            <div class="container-fluid">
+                <div class="columns">
+                    <div class="column is-2">
+                        <div class="field">
+                            <p class="control has-icons-left">
+                                <input class="input is-rounded" type="text" placeholder="search">
+                                <span class="icon is-small is-left">
+                                    <i class="fa fa-search"></i>
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="column is-4 is-offset-6">
+                        <p class="title interface--top--title  is-5">Année scolaire 2020-2021</p>
+                        <ul class="interface--top--icons">
+                            <li>
+                                <a href=""><i class="fa fa-backward "></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fa fa-play"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fa fa-forward"></i></a>
+                            </li>
+
+                        </ul>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="interface--content">
+            <div class="container-fluid">
+                <div class="columns">
+                    <div class="column is-2 leftside">
+                        <aside>
+                            <div class="field is-horizontal leftside--top">
+                                <div class="field-label is-normal">
+                                    <label class="label">code famille</label>
+                                </div>
+                                <div class="field-body">
+                                    <div class="field">
+                                        <p class="control is-expanded ">
+                                            <input class="input" type="text" placeholder="F-14-0007">
+
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tabs">
+                                <ul>
+                                    <li data-target="#pere" class="is-active tabs--item"><a>Pére</a></li>
+                                    <li data-target="#mere" class="tabs--item"><a>Mére</a></li>
+                                    <li data-target="#autre" class="tabs--item"><a>Autre</a></li>
+                                </ul>
+                            </div>
+                            <div id="#pere" class="content-tab">
+                                <div class="field is-horizontal ">
+                                    <div class="field-label is-normal">
+                                        <label class="label">Nom</label>
+                                    </div>
+                                    <div class="field-body">
+                                        <div class="field">
+                                            <p class="control is-expanded ">
+                                                <input class="input" type="text" placeholder="">
+
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="field is-horizontal ">
+                                    <div class="field-label is-normal">
+                                        <label class="label">Prenom</label>
+                                    </div>
+                                    <div class="field-body">
+                                        <div class="field">
+                                            <p class="control is-expanded ">
+                                                <input class="input" type="text" placeholder="">
+
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="field is-horizontal ">
+                                    <div class="field-label is-normal">
+                                        <label class="label">Mobile</label>
+                                    </div>
+                                    <div class="field-body">
+                                        <div class="field">
+                                            <p class="control is-expanded ">
+                                                <input class="input" type="text" placeholder="">
+
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="field is-horizontal ">
+                                    <div class="field-label is-normal">
+                                        <label class="label">Fix</label>
+                                    </div>
+                                    <div class="field-body">
+                                        <div class="field">
+                                            <p class="control is-expanded ">
+                                                <input class="input" type="text" placeholder="">
+
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <fieldset name="some">
+                                    <legend>Address</legend>
+                                    <div class="field is-horizontal ">
+                                        <div class="field-label is-normal">
+                                            <label class="label">Numéro de rue</label>
+                                        </div>
+                                        <div class="field-body">
+                                            <div class="field">
+                                                <p class="control is-expanded ">
+                                                    <input class="input" type="text" placeholder="">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="field is-horizontal ">
+                                        <div class="field-label is-normal">
+                                            <label class="label">Nom de rue</label>
+                                        </div>
+                                        <div class="field-body">
+                                            <div class="field">
+                                                <p class="control is-expanded ">
+                                                    <input class="input" type="text" placeholder="">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="field is-horizontal ">
+                                        <div class="field-label is-normal">
+                                            <label class="label">Code Postal</label>
+                                        </div>
+                                        <div class="field-body">
+                                            <div class="field">
+                                                <p class="control is-expanded ">
+                                                    <input class="input" type="number" placeholder="">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                                <label class="checkbox">
+                                    <span>Réferent Pédagogique</span>
+                                    <input type="checkbox">
+
+                                </label>
+                                <label class="checkbox">
+                                    <span>Réferent Legal</span>
+                                    <input type="checkbox">
+
+                                </label>
+                            </div>
+                            <div id="#mere" class="content-tab" style="display:none;">
+
+                            </div>
+                            <div id="#autre" class="content-tab" style="display:none;">
+
+                            </div>
+                            <div class="leftside--total">
+                                <div class="field is-horizontal is-medium ">
+                                    <div class="field-label is-normal">
+                                        <label class="label">Prix totlal Calculé</label>
+                                    </div>
+                                    <div class="field-body">
+                                        <div class="field">
+                                            <p class="control is-expanded ">
+                                                <input class="input" type="text" placeholder="">
+
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="field is-horizontal is-medium ">
+                                    <div class="field-label is-normal">
+                                        <label class="label">Prix appliqué</label>
+                                    </div>
+                                    <div class="field-body">
+                                        <div class="field">
+                                            <p class="control is-expanded is-double ">
+                                                <input class="input" type="text" placeholder="">
+                                                <a href="" class="button is-default">ok</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </aside>
+                    </div>
+                    <div class="column is-10 rightside">
+                        <div class="tabs">
+                            <ul>
+                                <li class="is-active tabs--item-right"><a>Mohamed (E-16-009)</a></li>
+                                <li class="tabs--item-right"><a>Farid (E-18-037)</a></li>
+                                <li class="tabs--item-right"><a>Lynda (E-20-083)</a></li>
+                            </ul>
+                        </div>
+                        <div class="content-tab ">
+                            <div class="container-fluid">
+                                <div class="columns">
+                                    <div class="column is-4">
+                                        <div class="field is-horizontal">
+                                            <div class="field-label is-normal">
+                                                <label class="label">Prénom</label>
+                                            </div>
+                                            <div class="field-body">
+                                                <div class="field">
+                                                    <p class="control is-expanded ">
+                                                        <input class="input" type="text" placeholder="">
+
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="column is-3">
+                                        <div class="field is-horizontal">
+                                            <div class="field-label is-normal">
+                                                <label class="label">Date de naissance</label>
+                                            </div>
+                                            <div class="field-body">
+                                                <div class="field">
+                                                    <p class="control is-expanded ">
+                                                        <input class="input" type="date" placeholder="">
+
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="columns">
+                                    <div class="column is-4">
+                                        <div class="field is-horizontal">
+                                            <div class="field-label is-normal">
+                                                <label class="label">Nom</label>
+                                            </div>
+                                            <div class="field-body">
+                                                <div class="field">
+                                                    <p class="control is-expanded ">
+                                                        <input class="input" type="text" placeholder="">
+
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="column is-3">
+                                        <div class="field is-horizontal">
+                                            <div class="field-label is-normal">
+                                                <label class="label">Genre</label>
+                                            </div>
+                                            <div class="field-body">
+                                                <div class="field">
+                                                    <div class="select">
+                                                        <select>
+                                                            <option>Masculin</option>
+                                                            <option>Feminin</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="column is-3">
+                                        <img src="images/Screenshot from 2020-06-18 21-45-54.png" alt="">
+                                    </div>
+
+                                </div>
+                                <div class="columns">
+                                    <div class="column is-3">
+                                        <div class="field is-horizontal">
+                                            <div class="field-label is-normal">
+                                                <label class="label">Niveau scolaire</label>
+                                            </div>
+                                            <div class="field-body">
+                                                <div class="field">
+                                                    <div class="select">
+                                                        <select>
+                                                            <option>Terminal</option>
+                                                            <option></option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="columns dispo is-multiline ">
+                                    <div class="column is-10">
+                                        <fieldset>
+                                            <legend>Matiéres souhaités</legend>
+                                            <table class="table">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Note N-1</th>
+                                                        <th><span>Formule présentiel</span>
+                                                            <span>Format</span>
+                                                        </th>
+
+                                                        <th>Formule en ligne</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>
+
+                                                            <div class="content">
+                                                                <label for="">Math.</label>
+                                                                <div class="field">
+                                                                    <div class="select">
+                                                                        <select>
+                                                                            <option>14</option>
+                                                                            <option></option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+
+                                                        </td>
+                                                        <td>
+                                                            <div class="wrapper">
+                                                                <div class="middle">
+                                                                    <div class="field has-addons">
+                                                                        <p class="control">
+                                                                            <button class="button">
+
+                                                                                <span>Aucun</span>
+                                                                            </button>
+                                                                        </p>
+                                                                        <p class="control">
+                                                                            <button class="button is-primary">
+
+                                                                                <span>Annuelle</span>
+                                                                            </button>
+                                                                        </p>
+                                                                        <p class="control">
+                                                                            <button class="button">
+
+                                                                                <span>Trimestriel</span>
+                                                                            </button>
+                                                                        </p>
+                                                                    </div>
+                                                                    <div class="field has-addons">
+                                                                        <p class="control">
+                                                                            <button class="button">
+
+                                                                                <span>Groupe</span>
+                                                                            </button>
+                                                                        </p>
+                                                                        <p class="control">
+                                                                            <button class="button is-primary">
+
+                                                                                <span>Particulier</span>
+                                                                            </button>
+                                                                        </p>
+
+                                                                    </div>
+
+                                                                </div>
+
+                                                            </div>
+                                                            <div class="extras has-text-centered">
+                                                                <div class="field">
+                                                                    <div class="select">
+                                                                        <select>
+                                                                            <option><i class="fa fa-key"></i> Groupe
+                                                                                SAM-AM-MTH-TER-01 (3/7)</option>
+                                                                            <option>Feminin</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="wrapper">
+                                                                <div class="middle">
+                                                                    <div class="field has-addons">
+                                                                        <p class="control">
+                                                                            <button class="button">
+
+                                                                                <span>Aucun</span>
+                                                                            </button>
+                                                                        </p>
+                                                                        <p class="control">
+                                                                            <button class="button is-primary">
+
+                                                                                <span>Annuel</span>
+                                                                            </button>
+                                                                        </p>
+                                                                        <p class="control">
+                                                                            <button class="button">
+
+                                                                                <span>Trimestriel</span>
+                                                                            </button>
+                                                                        </p>
+                                                                    </div>
+
+
+                                                                </div>
+                                                            </div>
+                                                            <div class="extras has-text-centered"
+                                                                style="margin-top: 0.7em;">
+                                                                <div class="field">
+                                                                    <div class="select">
+                                                                        <select>
+                                                                            <option><i class="fa fa-key"></i> Groupe
+                                                                                SAM-AM-MTH-TER-01 (3/7)</option>
+                                                                            <option>Feminin</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td class="last"><span class="success"><i
+                                                                    class="fa fa-angle-up has-text-success"></i></span>
+                                                        </td>
+                                                    </tr>
+
+                                                    <!-- second -->
+                                                    <tr>
+                                                        <td>
+
+                                                            <div class="content">
+                                                                <label for="">Math.</label>
+                                                                <div class="field">
+                                                                    <div class="select">
+                                                                        <select>
+                                                                            <option>14</option>
+                                                                            <option></option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+
+                                                        </td>
+                                                        <td>
+                                                            <div class="wrapper">
+                                                                <div class="middle">
+                                                                    <div class="field has-addons">
+                                                                        <p class="control">
+                                                                            <button class="button">
+
+                                                                                <span>Aucun</span>
+                                                                            </button>
+                                                                        </p>
+                                                                        <p class="control">
+                                                                            <button class="button is-primary">
+
+                                                                                <span>Annuel</span>
+                                                                            </button>
+                                                                        </p>
+                                                                        <p class="control">
+                                                                            <button class="button">
+
+                                                                                <span>Trimestriel</span>
+                                                                            </button>
+                                                                        </p>
+                                                                    </div>
+                                                                    <div class="field has-addons">
+                                                                        <p class="control">
+                                                                            <button class="button">
+
+                                                                                <span>Groupe</span>
+                                                                            </button>
+                                                                        </p>
+                                                                        <p class="control">
+                                                                            <button class="button is-primary">
+
+                                                                                <span>Particulier</span>
+                                                                            </button>
+                                                                        </p>
+
+                                                                    </div>
+
+                                                                </div>
+
+                                                            </div>
+                                                            <div class="extras has-text-centered">
+                                                                <div class="field">
+                                                                    <div class="select">
+                                                                        <select>
+                                                                            <option><i class="fa fa-key"></i> Groupe
+                                                                                SAM-AM-MTH-TER-01 (3/7)</option>
+                                                                            <option>Feminin</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="wrapper">
+                                                                <div class="middle">
+                                                                    <div class="field has-addons">
+                                                                        <p class="control">
+                                                                            <button class="button">
+
+                                                                                <span>Aucune</span>
+                                                                            </button>
+                                                                        </p>
+                                                                        <p class="control">
+                                                                            <button class="button is-primary">
+
+                                                                                <span>Annuelle</span>
+                                                                            </button>
+                                                                        </p>
+                                                                        <p class="control">
+                                                                            <button class="button">
+
+                                                                                <span>Trimestriel</span>
+                                                                            </button>
+                                                                        </p>
+                                                                    </div>
+
+
+                                                                </div>
+                                                            </div>
+                                                            <div class="extras has-text-centered"
+                                                                style="margin-top: 0.7em;">
+                                                                <div class="field">
+                                                                    <div class="select">
+                                                                        <select>
+                                                                            <option><i class="fa fa-key"></i> Groupe
+                                                                                SAM-AM-MTH-TER-01 (3/7)</option>
+                                                                            <option>Feminin</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td class="last"><span class="danger"><i
+                                                                    class="fa fa-angle-down has-text-danger"></i></span>
+                                                        </td>
+                                                    </tr>
+                                                    <!-- third -->
+                                                    <tr>
+                                                        <td>
+
+                                                            <div class="content">
+                                                                <label for="">Math.</label>
+                                                                <div class="field">
+                                                                    <div class="select">
+                                                                        <select>
+                                                                            <option>14</option>
+                                                                            <option></option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+
+                                                        </td>
+                                                        <td>
+                                                            <div class="wrapper">
+                                                                <div class="middle">
+                                                                    <div class="field has-addons">
+                                                                        <p class="control">
+                                                                            <button class="button">
+
+                                                                                <span>Aucune</span>
+                                                                            </button>
+                                                                        </p>
+                                                                        <p class="control">
+                                                                            <button class="button is-primary">
+
+                                                                                <span>Annuelle</span>
+                                                                            </button>
+                                                                        </p>
+                                                                        <p class="control">
+                                                                            <button class="button">
+
+                                                                                <span>Trimestriel</span>
+                                                                            </button>
+                                                                        </p>
+                                                                    </div>
+                                                                    <div class="field has-addons">
+                                                                        <p class="control">
+                                                                            <button class="button">
+
+                                                                                <span>Groupe</span>
+                                                                            </button>
+                                                                        </p>
+                                                                        <p class="control">
+                                                                            <button class="button is-primary">
+
+                                                                                <span>Particulier</span>
+                                                                            </button>
+                                                                        </p>
+
+                                                                    </div>
+
+                                                                </div>
+
+                                                            </div>
+                                                            <div class="extras has-text-centered">
+                                                                <div class="field">
+                                                                    <div class="select">
+                                                                        <select>
+                                                                            <option><i class="fa fa-key"></i> Groupe
+                                                                                SAM-AM-MTH-TER-01 (3/7)</option>
+                                                                            <option>Feminin</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="wrapper">
+                                                                <div class="middle">
+                                                                    <div class="field has-addons">
+                                                                        <p class="control">
+                                                                            <button class="button">
+
+                                                                                <span>Aucune</span>
+                                                                            </button>
+                                                                        </p>
+                                                                        <p class="control">
+                                                                            <button class="button is-primary">
+
+                                                                                <span>Annuelle</span>
+                                                                            </button>
+                                                                        </p>
+                                                                        <p class="control">
+                                                                            <button class="button">
+
+                                                                                <span>Trimestriel</span>
+                                                                            </button>
+                                                                        </p>
+                                                                    </div>
+
+
+                                                                </div>
+                                                            </div>
+                                                            <div class="extras has-text-centered"
+                                                                style="margin-top: 0.7em;">
+                                                                <div class="field">
+                                                                    <div class="select">
+                                                                        <select>
+                                                                            <option><i class="fa fa-key"></i> Groupe
+                                                                                SAM-AM-MTH-TER-01 (3/7)</option>
+                                                                            <option>Feminin</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td class="last"><span class="success"><i
+                                                                    class="fa fa-angle-up has-text-success"></i></span>
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td>
+
+                                                            <div class="content">
+                                                                <label for="">Math.</label>
+                                                                <div class="field">
+                                                                    <div class="select">
+                                                                        <select>
+                                                                            <option>14</option>
+                                                                            <option></option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+
+                                                        </td>
+                                                        <td>
+                                                            <div class="wrapper">
+                                                                <div class="middle">
+                                                                    <div class="field has-addons">
+                                                                        <p class="control">
+                                                                            <button class="button">
+
+                                                                                <span>Aucun</span>
+                                                                            </button>
+                                                                        </p>
+                                                                        <p class="control">
+                                                                            <button class="button is-primary">
+
+                                                                                <span>Annuelle</span>
+                                                                            </button>
+                                                                        </p>
+                                                                        <p class="control">
+                                                                            <button class="button">
+
+                                                                                <span>Trimestriel</span>
+                                                                            </button>
+                                                                        </p>
+                                                                    </div>
+                                                                    <div class="field has-addons">
+                                                                        <p class="control">
+                                                                            <button class="button">
+
+                                                                                <span>Groupe</span>
+                                                                            </button>
+                                                                        </p>
+                                                                        <p class="control">
+                                                                            <button class="button is-primary">
+
+                                                                                <span>Particulier</span>
+                                                                            </button>
+                                                                        </p>
+
+                                                                    </div>
+
+                                                                </div>
+
+                                                            </div>
+                                                            <div class="extras has-text-centered">
+                                                                <div class="field">
+                                                                    <div class="select">
+                                                                        <select>
+                                                                            <option><i class="fa fa-key"></i> Groupe
+                                                                                SAM-AM-MTH-TER-01 (3/7)</option>
+                                                                            <option>Feminin</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="wrapper">
+                                                                <div class="middle">
+                                                                    <div class="field has-addons">
+                                                                        <p class="control">
+                                                                            <button class="button">
+
+                                                                                <span>Aucun</span>
+                                                                            </button>
+                                                                        </p>
+                                                                        <p class="control">
+                                                                            <button class="button is-primary">
+
+                                                                                <span>Annuelle</span>
+                                                                            </button>
+                                                                        </p>
+                                                                        <p class="control">
+                                                                            <button class="button">
+
+                                                                                <span>Trimestriel</span>
+                                                                            </button>
+                                                                        </p>
+                                                                    </div>
+
+
+                                                                </div>
+                                                            </div>
+                                                            <div class="extras has-text-centered"
+                                                                style="margin-top: 0.7em;">
+                                                                <div class="field">
+                                                                    <div class="select">
+                                                                        <select>
+                                                                            <option><i class="fa fa-key"></i> Groupe
+                                                                                SAM-AM-MTH-TER-01 (3/7)</option>
+                                                                            <option>Feminin</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td class="last"><span class="success"><i
+                                                                    class="fa fa-angle-up has-text-success"></i></span>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <div class="container">
+                                                <div class="columns">
+                                                    <div class="column is-3 is-offset-6">
+                                                        <div class="field is-horizontal">
+                                                            <div class="field-label is-normal">
+                                                                <label class="label">Cout calculé pour mohammed</label>
+                                                            </div>
+                                                            <div class="field-body">
+                                                                <div class="field">
+                                                                    <p class="control is-expanded ">
+                                                                        <input class="input" type="text" placeholder="">
+
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </fieldset>
+                                    </div>
+                                    <div class="column is-2">
+                                        <fieldset>
+                                            <legend>disponibilités</legend>
+                                            <table class="table">
+                                                <thead>
+                                                    <tr>
+                                                        <th></th>
+                                                        <th>midi</th>
+                                                        <th>aprés midi</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>lundi</td>
+                                                        <td>
+                                                            <label class="checkbox">
+
+                                                                <input type="checkbox">
+
+                                                            </label>
+                                                        </td>
+                                                        <td>
+                                                            <label class="checkbox">
+
+                                                                <input type="checkbox">
+
+                                                            </label>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>lundi</td>
+                                                        <td>
+                                                            <label class="checkbox">
+
+                                                                <input type="checkbox">
+
+                                                            </label>
+                                                        </td>
+                                                        <td>
+                                                            <label class="checkbox">
+
+                                                                <input type="checkbox">
+
+                                                            </label>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </fieldset>
+                                    </div>
+                                    <div class="column is-3 cta">
+                                        <div class="field">
+                                            <div class="select">
+                                                <select>
+                                                    <option><i class="fa fa-key"></i> <u>validation adminitration</u></option>
+                                           
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="column is-offset-5 is-3 cta2">
+                                        <div class="field">
+                                            <div class="select ">
+                                                <select class="">
+                                                    <option><i class="fa fa-key"></i> <u>J'inscrit mohammed</u></option>
+                                           
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+            <script src="js/jquery.min.js"></script>
+            <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,207 @@
+body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    font-family: "Roboto", sans-serif;
+}
+a,
+p,
+span {
+    color: #000;
+}
+a:hover {
+    color: #000;
+}
+.select:not(.is-multiple):not(.is-loading)::after {
+    border-color: #000;
+}
+.button.is-primary span {
+    color: #fff;
+}
+.button.is-primary {
+    background-color: blue;
+    color: #fff !important;
+}
+.button.is-primary:hover {
+    background-color: blue;
+    border-color: #000;
+}
+.tabs li.is-active a {
+    border-bottom-color: #000;
+    color: #000;
+}
+.button:hover {
+    border-color: #000;
+}
+.button {
+    border-color: #000;
+}
+.field-label {
+    text-align: left;
+    /* flex-basis: auto; */
+}
+/* .field.is-horizontal {
+    display: block;
+}
+.field-label{
+    display: inline-flex;
+vertical-align: middle;
+}
+.field-body{
+    display: inline-flex;
+} */
+.input,
+.select select,
+.textarea {
+    border-color: #000;
+}
+.input:active,
+.input:focus,
+.is-active.input,
+.is-active.textarea,
+.is-focused.input,
+.is-focused.textarea,
+.select select.is-active,
+.select select.is-focused,
+.select select:active,
+.select select:focus,
+.textarea:active,
+.textarea:focus {
+    border-color: #000;
+    box-shadow: none;
+}
+.input:hover,
+.is-hovered.input,
+.is-hovered.textarea,
+.select select.is-hovered,
+.select select:hover,
+.textarea:hover {
+    border-color: #000;
+}
+.interface {
+    position: relative;
+    margin-top: 50px;
+}
+.interface .interface--top {
+    position: relative;
+}
+.interface .interface--top .container-fluid,
+.interface--content .container-fluid {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+}
+.interface--top .interface--top--title {
+    display: inline;
+    text-decoration: underline;
+    color: blue;
+}
+.interface--top .interface--top--icons {
+    display: inline;
+    margin-left: 12px;
+}
+.interface--top .interface--top--icons li {
+    margin-right: 18px;
+}
+.interface--top .interface--top--icons li {
+    display: inline-block;
+}
+.interface .interface--content {
+    position: relative;
+}
+.interface--content .leftside {
+    position: relative;
+}
+.leftside aside {
+    border: 1.5px solid #000;
+    padding: 10px;
+    height: 100vh;
+}
+.leftside .leftside--top .field-label {
+    text-align: left;
+    flex-shrink: 0;
+}
+.leftside .content-tab {
+    padding: 0.75em;
+    border: 1px solid #000;
+}
+.leftside .content-tab fieldset {
+    border: 1px solid #000;
+    margin-top: 15px;
+    padding: 0.75em;
+    margin-bottom: 15px;
+}
+.leftside--total {
+    margin-top: 15px;
+}
+.leftside--total .control.is-double {
+    display: flex;
+}
+.leftside--total .control.is-double .button {
+    margin-left: 15px;
+}
+.rightside {
+    position: relative;
+}
+.rightside fieldset {
+    border: 1px solid #000;
+    /* flex-grow: 0; */
+}
+.rightside fieldset legend {
+    margin: 16px;
+}
+.rightside .table {
+    width: 100%;
+}
+.rightside .table .wrapper {
+    display: flex;
+}
+.rightside .table td {
+    border: none;
+}
+.rightside .table tbody tr {
+    border: 1px solid #dbdbdb;
+    margin-top: 10px;
+}
+.rightside .table .wrapper .middle {
+    display: inline-flex;
+}
+.rightside .table .content {
+    display: block;
+}
+.rightside .table thead {
+    padding-left: 15px;
+}
+.rightside .table .content label,
+.rightside .table .content .field {
+    display: inline-block;
+}
+.rightside .middle .has-addons {
+    margin-right: 15px;
+}
+.rightside .table .last span {
+    border: 3px solid transparent;
+    border-radius: 36%;
+    padding: 2px 5px;
+}
+.rightside .table .last span i {
+    font-weight: bold;
+}
+.rightside .table .last span.danger {
+    border-color: red;
+}
+.rightside .table .last span.success {
+    border-color: #48c774;
+}
+.rightside .dispo .table td {
+    text-align: center;
+}
+.rightside .cta .field,.rightside .cta .select ,.rightside .cta select {
+    width: 100%;
+}
+.cta2 select{
+    background-color: blue;
+    color:#fff;
+}
+.cta2 .select:not(.is-multiple):not(.is-loading)::after{
+    border-color:#fff;
+}
